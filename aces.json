@@ -1,0 +1,36 @@
+{
+  "act": {
+    "conditions": [],
+    "actions": [
+      {
+        "id": "imei",
+        "scriptName": "Imei",
+        "highlight": false
+      }
+    ],
+    "expressions": []
+  },
+  "cb": {
+    "conditions": [
+      {
+        "id": "imi",
+        "scriptName": "Imi",
+        "highlight": false,
+        "isTrigger": true
+      }
+    ],
+    "actions": [],
+    "expressions": []
+  },
+  "res": {
+    "conditions": [],
+    "actions": [],
+    "expressions": [
+      {
+        "id": "response-",
+        "expressionName": "Response",
+        "returnType": "any"
+      }
+    ]
+  }
+}

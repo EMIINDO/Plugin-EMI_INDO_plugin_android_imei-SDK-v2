@@ -1,0 +1,39 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for plugin_android_imei Plugin",
+  "text": {
+    "plugins": {
+      "emi_indo_plugin_android_imei": {
+        "name": "plugin_android_imei",
+        "description": "Cordova plugin for retrieving IMEI of the device.",
+        "help-url": "https://www.cordova-c3addon.store/?p=223",
+        "properties": {},
+        "aceCategories": {
+          "act": "Get Imei",
+          "cb": "On Callback",
+          "res": "Response"
+        },
+        "conditions": {
+          "imi": {
+            "list-name": "ON Get IMEI",
+            "display-text": "ON Get IMEI",
+            "description": "ON Get IMEI"
+          }
+        },
+        "actions": {
+          "imei": {
+            "list-name": "Get Imei",
+            "display-text": "Get Imei",
+            "description": "Get Imei"
+          }
+        },
+        "expressions": {
+          "response-": {
+            "translated-name": "On Response",
+            "description": "On Response"
+          }
+        }
+      }
+    }
+  }
+}
